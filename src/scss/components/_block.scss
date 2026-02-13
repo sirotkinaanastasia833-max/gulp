@@ -1,0 +1,33 @@
+.section_block{
+    .container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap:nowrap;
+        .section_block_h1{
+            color: #fff;
+            font-size: 30px;
+            margin-top: 40px;
+        }
+        .section_block_p{
+            color: #fff;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        .section_block_button{
+            color: #fff;
+            font-size: 18px;
+            margin-top: 80px;
+            display: flex;
+            justify-content: center;
+            background-color: rgba(38, 38, 38, 1);
+            padding: 18px 16px;
+            border-radius: 8px;
+            width: 432px;
+
+        }
+        .section_block_wrapper{
+            padding: 50px;
+        }  
+    }
+
+}

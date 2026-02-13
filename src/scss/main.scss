@@ -1,0 +1,29 @@
+// ==== 1. Utils ====
+@use 'utils/variables';
+
+// ==== 2. Base styles ====
+@use 'base/reset';
+@use 'base/typography';
+@use 'base/layout';
+
+// ==== 3. Layout ====
+@use 'layout/container';
+
+// ==== 4. Components ====
+@use 'components/button';
+@use 'components/card';
+@use 'components/header';
+@use 'components/hero';
+@use 'components/audio';
+@use 'components/services';
+@use 'components/block';
+@use 'components/choose';
+@use 'components/four_block';
+@use 'components/feedback_container';
+@use 'components/squareup_block';
+@use 'components/frequently_aske_questions';
+@use 'components/questions';
+
+// ==== 5. Pages ====
+@use 'pages/mainPage';
+

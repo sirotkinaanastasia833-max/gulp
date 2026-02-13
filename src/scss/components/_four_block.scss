@@ -1,0 +1,51 @@
+.section_four_block{
+    .container{
+        p{
+        margin-top: 10px;
+        }
+        h1{
+            font-size: 26px;
+        }
+        color: #fff;
+        font-size: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+        "one two"
+        "three four";
+        .section_four_block_h1{
+            color: #fff;
+            font-size: 30px;
+            margin-top: 40px;
+        }
+        .section_four_block_p{
+            color: #fff;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        .section_one_block_wrapper{
+            grid-area:one;
+            padding: 20px;
+        }
+        .section_two_block_wrapper{
+            grid-area:two;
+            padding: 20px;
+        }
+        .section_three_block_wrapper{
+            grid-area:three;
+            padding: 20px;
+        }
+        .section_four_block_wrapper{
+            grid-area: four;
+            padding: 20px;
+        }
+        .img_p{
+            display: flex;
+            flex-direction: row;
+            flex-wrap:nowrap;
+            justify-content: start;
+        }  
+    }
+
+}
