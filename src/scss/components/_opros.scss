@@ -1,3 +1,45 @@
-.container{
+.section_opros{
+    .container{
+        .container_opros{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
+        .div_opros{
+            width: 430px;
+            height: 100px;
+            padding: 24px 40px;
+            border-radius: 8px;
+            font-size: 22px;
+            h1{
+                color: #fff;
+            }
+            background-color: #242424;
+            p{
+                color: #656567;
+            }
+        }
+        .div_opros_wrapper_1{
+            padding-top:40px;
+            .div_opros_wrapper{
+            width: 1239px;
+            padding: 40px 40px;
+            border-radius: 8px;
+            font-size: 22px;
+            h1{
+                color: #fff;
+            }
+            background-color: #242424;
+            p{
+                color: #fff;
+            }
+            }
+        }
+        .design{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
 
+    }
 }
