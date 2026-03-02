@@ -1,0 +1,22 @@
+.section_contact{
+    .container{
+        .contact_div{
+            display: flex;
+            flex-wrap: wrap;
+            .contact_div_wrapper{
+                display: flex;
+                flex-wrap: wrap;
+                margin-right: 70px;
+            }
+        }
+        p{
+            color: #fff;
+        }
+        span{
+            color: #98989A;
+        }
+        img{
+            margin-right: 10px;
+        }
+    }
+}

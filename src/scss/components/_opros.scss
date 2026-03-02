@@ -31,6 +31,9 @@
             }
             background-color: #242424;
             p{
+                color: #656567;
+            }
+            .p_p{
                 color: #fff;
             }
             }
@@ -46,6 +49,16 @@
             }
             padding-top: 30px;
             
+        }
+        .design_div{
+            display: flex;
+            flex-wrap: nowrap;
+            padding-top: 20px;
+        }
+        .button{
+            padding: 18px 44px;
+            display: flex;
+            justify-content: center;
         }
     }
 }
