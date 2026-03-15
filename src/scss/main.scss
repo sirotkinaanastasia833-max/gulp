@@ -27,7 +27,8 @@
 @use 'components/opros';
 @use 'components/footer';
 @use 'components/contact';
+@use 'components/design_servis';
 
 // ==== 5. Pages ====
 @use 'pages/mainPage';
-
+@use 'pages/servicesPage';

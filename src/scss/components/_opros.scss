@@ -37,11 +37,13 @@
                 color: #fff;
             }
             }
+            input{
+                accent-color: var(--main-color);
+                width: 1200px;
+            }
         }
         .design{
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
+            color: #fff;
         }
         .div_p{
             p{
@@ -51,9 +53,7 @@
             
         }
         .design_div{
-            display: flex;
-            flex-wrap: nowrap;
-            padding-top: 20px;
+            color: #fff;
         }
         .button{
             padding: 18px 44px;
