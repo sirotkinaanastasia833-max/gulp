@@ -1,0 +1,25 @@
+.section_design_servis{
+    .container{
+        color: #fff;
+        padding: 50px 50px;
+        border: 1px var(--border-color) solid;
+        .h_p_design{
+            p{
+            padding-top: 15px;
+            }
+        }
+        
+        .button_design{
+            padding-top: 30px;
+        .button_design_wrapper{
+            padding: 12px 14px;
+            background-color: #262626;
+            color: #fff;
+            border-radius: 8px;
+            pointer-events: none;
+            border: none;
+        }
+    }  
+    }
+
+}
