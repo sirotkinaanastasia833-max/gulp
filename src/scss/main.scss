@@ -31,7 +31,13 @@
 @use 'components/title_block';
 @use 'components/four_design_block';
 @use 'components/engineering_servis';
+@use 'components/work_block';
+@use 'components/workkk';
 
 // ==== 5. Pages ====
 @use 'pages/mainPage';
 @use 'pages/servicesPage';
+@use 'pages/workPage';
+@use 'pages/careersPage';
+@use 'pages/processPage';
+@use 'pages/aboutPage';
