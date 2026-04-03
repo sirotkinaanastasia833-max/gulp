@@ -1,8 +1,6 @@
-.section_workkk{
-    .container{
-        .section_workkk_wrapper{
-            display: flex;
-            flex-wrap: nowrap;
-        }
+.section_workkk {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }

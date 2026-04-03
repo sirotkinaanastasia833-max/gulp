@@ -1,25 +1,40 @@
-.section_work{
-    .container{
-        padding: 30px 50px;
-        border: 1px var(--border-color) solid;
-        img{
-            padding-top: 10px;
-        }
-        h1{color: #fff;}
-        p{
-            padding-top: 20px;
-            color: #98989A;
-            width: 700px;
-            margin: 0 0;
-        }
-        button{
-            padding: 12px 14px;
-            background-color: #262626;
-            color: #98989A;
-            border-radius: 8px;
-            pointer-events: none;
-            border: none;
-            margin-right: 50px;
-        }
+.work_card {
+    padding: 30px 50px;
+    border: 1px var(--border-color) solid;
+
+    img {
+        padding-top: 30px;
+    }
+
+    h1 {
+        color: #fff;
+    }
+
+    p {
+        padding-top: 20px;
+        color: #98989A;
+        width: 700px;
+        margin: 0 0;
+    }
+
+    button {
+        padding: 12px 14px;
+        background-color: #262626;
+        color: #98989A;
+        border-radius: 8px;
+        pointer-events: none;
+        border: none;
+        margin-right: 50px;
+    }
+
+    svg {
+        padding: 12px;
+        background-color: #262626;
+        border-radius: 8px;
+        border: none;
+    }
+    span{
+        color: #98989A;
+        font-size: 20px;
     }
 }
