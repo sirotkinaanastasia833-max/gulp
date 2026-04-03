@@ -1,0 +1,23 @@
+.process_block_wrapper {
+    padding: 30px 50px;
+    border: 1px var(--border-color) solid;
+    padding: 50px 100px;
+
+    .number {
+        color: #D8FF99;
+        font-size: 130px;
+    }
+
+    .title {
+        color: #98989A;
+        font-size: 20px;
+        margin: 10px 10px;
+    }
+
+    .description {
+        color: #98989A;
+        font-size: 18px;
+        width: 690px;
+        margin: 0 0;
+    }
+}

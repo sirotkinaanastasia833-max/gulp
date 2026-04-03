@@ -37,13 +37,23 @@
                 color: #fff;
             }
             }
-            input{
+            .range{
                 accent-color: var(--main-color);
                 width: 1200px;
+            }
+            .checkbox{
+                width: 28px;
+                height: 28px;
+                background-color: #242424;
+                margin: 5px 10px;
+                accent-color: #242424;
+                color: var(--main-color);
             }
         }
         .design{
             color: #fff;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
         }
         .div_p{
             p{
@@ -51,9 +61,6 @@
             }
             padding-top: 30px;
             
-        }
-        .design_div{
-            color: #fff;
         }
         .button{
             padding: 18px 44px;
