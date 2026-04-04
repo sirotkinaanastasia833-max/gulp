@@ -1,0 +1,27 @@
+.about_wrapper{
+    .container{
+        border: 1px var(--border-color) solid;
+        display: flex;
+        flex-wrap: nowrap;
+        padding-top: 100px;
+        padding: 60px;
+        .wrapper{
+            width: 598px;
+            display: flex;
+            flex-direction: column;
+            color: #fff;
+            margin: 0 0;
+            h1{
+                font-size: 48px;
+                padding-top: 130px;
+                margin: 0 0;
+                
+            }
+            p{
+                font-size: 20px;
+                padding-top: 20px;
+            }
+        }
+        
+    }
+}
