@@ -38,7 +38,12 @@
 @use 'components/about_squareup';
 @use 'components/our';
 @use 'components/about_start_project';
-
+@use 'components/careers_section_text';
+@use 'components/careers_section_text_block';
+@use 'components/careers_card';
+@use 'components/careers_card_container';
+@use 'components/email_number_geo';
+@use 'components/contact_block_seti';
 // ==== 5. Pages ====
 @use 'pages/mainPage';
 @use 'pages/servicesPage';
@@ -46,3 +51,4 @@
 @use 'pages/careersPage';
 @use 'pages/processPage';
 @use 'pages/aboutPage';
+@use 'pages/contactPage';

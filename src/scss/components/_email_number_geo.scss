@@ -1,0 +1,29 @@
+.section_email_number_geo{
+    .container{
+        display: flex;
+        justify-content: center;
+        .contact_div{
+            display: flex;
+            flex-wrap: wrap;
+            .contact_div_wrapper{
+                display: flex;
+                flex-wrap: wrap;
+                margin-right: 50px;
+                padding: 18px 24px;
+                background-color: #262626;
+                border-radius: 8px;
+                
+            }
+        }
+        p{
+            color: #fff;
+        }
+        span{
+            color: #98989A;
+        }
+        img{
+            margin-right: 10px;
+        }
+        
+    }
+}

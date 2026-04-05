@@ -1,0 +1,17 @@
+.career_section_wrapper{
+    .container{
+        border: 1px var(--border-color) solid;
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        h1{
+            color: #D8FF99;
+            font-size: 40px;
+        }
+        p{
+            color: #98989A;
+            font-size: 18px;
+            padding-top: 50px;
+        }
+    }
+}
