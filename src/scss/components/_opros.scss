@@ -1,47 +1,59 @@
-.section_opros{
-    .container{
-        .container_opros{
+.section_opros {
+    .container {
+        .container_opros {
             display: flex;
             flex-direction: row;
             flex-wrap: nowrap;
         }
-        .div_opros{
+
+        .div_opros {
             width: 430px;
             height: 100px;
             padding: 24px 40px;
             border-radius: 8px;
             font-size: 22px;
-            h1{
+
+            h1 {
                 color: #fff;
             }
+
             background-color: #242424;
-            p{
+
+            p {
                 color: #656567;
             }
         }
-        .div_opros_wrapper_1{
-            padding-top:40px;
-            .div_opros_wrapper{
-            width: 1239px;
-            padding: 40px 40px;
-            border-radius: 8px;
-            font-size: 22px;
-            h1{
-                color: #fff;
+
+        .div_opros_wrapper_1 {
+            padding-top: 40px;
+
+            .div_opros_wrapper {
+                width: 1239px;
+                padding: 40px 40px;
+                border-radius: 8px;
+                font-size: 22px;
+
+                h1 {
+                    color: #fff;
+                }
+
+                background-color: #242424;
+
+                p {
+                    color: #656567;
+                }
+
+                .p_p {
+                    color: #fff;
+                }
             }
-            background-color: #242424;
-            p{
-                color: #656567;
-            }
-            .p_p{
-                color: #fff;
-            }
-            }
-            .range{
+
+            .range {
                 accent-color: var(--main-color);
                 width: 1200px;
             }
-            .checkbox{
+
+            .checkbox {
                 width: 28px;
                 height: 28px;
                 background-color: #242424;
@@ -50,19 +62,34 @@
                 color: var(--main-color);
             }
         }
-        .design{
+
+        .design {
             color: #fff;
             display: grid;
             grid-template-columns: 1fr 1fr;
-        }
-        .div_p{
-            p{
-               color: #656567; 
+
+            .checkbox-wrapper {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                
+
+                label {
+                    margin: 0;
+                }
             }
-            padding-top: 30px;
-            
         }
-        .button{
+
+        .div_p {
+            p {
+                color: #656567;
+            }
+
+            padding-top: 30px;
+
+        }
+
+        .button {
             padding: 18px 44px;
             display: flex;
             justify-content: center;
